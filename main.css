@@ -58,6 +58,61 @@
   background-size: cover;
 
 }
+.parallax-dep-img-1{
+  background: url(/assets/cse.jpeg);
+  height: 375px;
+  display: inline-block;
+  width: 60%;
+  /* margin-left:3em ; */
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-size: cover;
+
+}
+.parallax-dep-img-2{
+  background: url(/assets/ece.jpeg);
+  height: 375px;
+  display: inline-block;
+  width: 60%;
+  /* margin-left:3em ; */
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-size: cover;
+
+}
+.parallax-dep-img-3{
+  background: url(/assets/eee.jpeg);
+  height: 375px;
+  display: inline-block;
+  width: 60%;
+  /* margin-left:3em ; */
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-size: cover;
+
+}
+.parallax-dep-img-4{
+  background: url(/assets/mechanical.jpeg);
+  height: 375px;
+  display: inline-block;
+  width: 60%;
+  /* margin-left:3em ; */
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-size: cover;
+
+}
+.parallax-dep-img-5{
+  background: url(/assets/cve.jpeg);
+  height: 375px;
+  display: inline-block;
+  width: 60%;
+  /* margin-left:3em ; */
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-size: cover;
+
+}
 
 .main-flex{
   display: flex;
@@ -99,21 +154,32 @@ box-shadow: 5px 5px 17px rgb(39, 39, 138,0.6);
   color: goldenrod;
   padding-bottom: 8px;
 }
-
-@media screen and (max-width:920px){
-  .hide{
-      display: none;
-  }
+#google_translate_element {
+  position: static;
+  top: 25%;
+  right: 1px;
+  transform: translateY(-20%);
+  z-index: 1;
 }
-
+.logo_lol{
+  background-size: contain;
+}
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .tweet-section {
-  float: right; /* Align it to the right */
+  float: left; /* Align it to the right */
   width: 400px; /* Adjust the width as needed */
   height: 300px;
   padding: 0; /* Add some padding for spacing */
   background-color: #f5f5f5; /* Optional: Set a background color */
   border: 1px solid #ddd; /* Optional: Add a border */
-  margin-left: 20px; /* Optional: Add some margin to separate it from other content */
+  margin-left: 200px; /* Optional: Add some margin to separate it from other content */
+  margin-right:200px;
   margin-top: 0;
   overflow: auto;
 }
@@ -125,5 +191,9 @@ box-shadow: 5px 5px 17px rgb(39, 39, 138,0.6);
 }
 
 
-    /*
+@media screen and (max-width:920px){
+  .hide{
+      display: none;
+  }
+}
 
