@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets -->
+    <link rel="stylesheet" media="screen" href="main.css">
+    <link rel="stylesheet" media="screen" href="footer.css">
+    <link rel="stylesheet" media="screen" href="head.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <!-- icon -->
+    <link rel="icon" href="/assets/download.jpg">
+    <title>NIT Goa</title>
+</head>
+<body>
+    <header>
+        <!-- login and signup -->
+        <div id="first">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+            <!-- contact number -->
+            <p class="hide"> <i class="fa fa-phone"></i> +91 12456754433, 1234567898</p>
+        </div>
+        <!-- navigation bar -->
+        <div class="navbar">
+            <div class="align">
+                <a href="#">HOME</a>
+                <a href="#">COURSE</a>
+                <a href="#">ADMISSION</a>
+                <a href="#">ABOUT US</a>
+                <div class="dropdown">
+                  <button class="dropbtn">MORE 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Campus Visit</a>
+                    <a href="#">Events</a>
+                    <a href="#">Gallery</a>
+                  </div>
+                </div> 
+            </div>
+            <!-- burger section -->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <!-- logo with link -->
+        <a href="index.html"> <img src="/assets/download.jpg" alt="NIT Goa logo" height="130px" width="100px"></a>
+    </header>
+        <!-- college picture -->
+        <div id="para" class="parallax"></div>
+        <!-- <img class="clg-img" src="image/college1.jpg" alt="college image" height="450px" width="100%"> -->
+
+    <!-- clickable flex boxes -->
+    <div class="main-flex">
+        <a href="#"> 
+            <h4>COURSE</h4>
+            <p>We offer graduation and post graduation programes in Science and Management to all the aspiring students. <br> <strong style="color:goldenrod; line-height: 30px;">View More</strong>        
+            </p>
+            <div class="icon">
+                <i class="fa fa-book"></i>
+            </div>
+        </a>
+        <a href="#">
+            <h4>ADMISSION</h4>
+            <p>Admission are open for the 2099 Science batch, apply early to avoid last hour rush.  <br> <strong style="color:goldenrod; line-height: 30px;"> Apply Now </strong>
+            </p>
+            <div class="icon">
+                <i class="fa fa-wpforms"></i>
+            </div>
+        </a>
+        <a href="#"><div>
+            <h4>EVENTS</h4>
+            <p>Technical seminar on computer science. <br><strong style="color:goldenrod;line-height: 30px;">Click here for more Events</strong>        
+            </p>
+            <div class="icon">
+                <i class="fa fa-bell"></i>
+            </div>
+        </div></a>
+    </div>
+
+    <!-- about courses -->
+    <section class="details-section">
+        <div class="parallax-img">
+            <div id="parallax-pic" class="parallax-img-1"></div>
+        
+            <div class="parallax-content">
+                <h2>Cirriculum</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia dolorem a, pariatur mollitia blanditiis nihil perferendis delectus accusamus culpa, neque, laboriosam asperiores nostrum! Necessitatibus iste et, illo voluptate nulla ab.</p>
+            </div>
+        </div>
+
+    <div class="parallax-img">
+        <div class="parallax-content">
+            <h2>Cirriculum</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia dolorem a, pariatur mollitia blanditiis nihil perferendis delectus accusamus culpa, neque, laboriosam asperiores nostrum! Necessitatibus iste et, illo voluptate nulla ab.</p>
+        </div>
+        <div class="parallax-img-2"></div>
+    </div>
+    
+    </section>
+    <!-- social media icons -->
+    <div class="index-social-icon">
+
+    </div>
+    <!-- footer -->
+    <footer>
+        <!-- college pic collage -->
+            <div class="footerimg">
+                <h2>Gallery</h2>
+                <a style="text-decoration:none;" href="#">
+                    <img src="assets/slideshow1.jpg" alt="Campus picture">
+                    <img src="assets/Slideshow2.jpeg" alt="Badminton court">
+                    <img src="assets/Slideshow3.jpeg" alt="Library">
+                    <img src="assets/slideshow4.jpg"  alt="colleg fest">
+                    <img src="assets/Slideshow3.jpeg"  alt="festival picture">
+                    <img src="assets/Slideshow2.jpeg" alt="college event">
+                </a>
+            </div>
+            <div class="foot_second">
+                <!-- college info -->
+                    <h2>About Us</h2>
+                    <p>
+                        The National Institute of Technology (NIT) Goa, founded in 2010, is a premier engineering institute situated in the scenic state of Goa, India. It offers undergraduate and postgraduate programs, fosters a vibrant student culture, and maintains academic excellence. NIT Goa is known for producing skilled engineers and technologists.
+                    </p>
+                    <!-- footer links -->
+                    <a href="#">HOME</a>
+                    <a href="#">COURSE</a>
+                    <a href="#">EVENTS</a>
+                    <a href="#">ADMISSION</a>
+                    <a href="#">CONTACT</a>
+                   <p style="color:red; margin-top: 10px;"> &copy;Copyright 2099 All rights reserved. <img src="assets/download.jpg" alt="college logo" width="20px" height="20px"></p>
+                </div>
+                
+        </footer>
+        <!-- javascript link -->
+        <script src="app.js"></script>  
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', { packages: ['corechart', 'bar'] });
+    google.charts.setOnLoadCallback(drawColColors);
+
+    function drawColColors() {
+      var data = google.visualization.arrayToDataTable([
+        ['Genre', 'Placements', { role: 'annotation' }, 'Higher Studies', { role: 'annotation' },],
+        ['UG 2021', 53, '53', 10, '10',],
+        ['UG 2022', 90, '90', 0, '',],
+        ['UG 2023', 94, '94', 0, '',],
+        ['PG 2023', 71, '71', 11, '11',],
+        ['PG 2023', 84, '84', 0, '',],
+        ['PG 2023', 77, '77', 13, '13',],
+        ['MCA 2023', 94, '94', 10, '10',],
+        ['MCA 2023', 87, '87', 0, '',],
+        ['MCA 2023', 99, '99', 9, '9',]
+      ]);
+
+      var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1, 2,
+        {
+          calc: "stringify",
+          sourceColumn: 1,
+          type: "string",
+          role: "annotation"
+        },
+        2]);
+
+      var options = {
+        width: 800,
+        height: 400,
+        legend: { position: 'top', maxLines: 3 },
+        bar: { groupWidth: '75%' },
+        isStacked: 'percent',
+        isStacked: 'true',
+
+      };
+
+
+      var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+  </script>  
+</body>
+</html>
