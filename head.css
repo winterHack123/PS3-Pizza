@@ -189,7 +189,9 @@ header img{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-5px);
 }
-
+.new_footer{
+    display: flex;
+}
 /* @media screen and (max-width:500px){
     .align{
         width: 30%;
